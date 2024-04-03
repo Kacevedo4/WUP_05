@@ -24,15 +24,14 @@ $H_A$: Aids patients appear to respond well to the recently developed prophylact
 
 # Methods
 
-Variable we use are:  
+Variable:
 
 treatment - categorical   
-DrugUser - categorical   
+
+Drug User - categorical   
+
 infected - categorical  
 
-Infected depends on treatment for Drug Users. 
-
-We get just the Drug Users from the population. 
 
 
 ```{r}
@@ -90,4 +89,6 @@ In this data we see that the p-value is 0.0000000423 which shows that the preven
 
 # Discussion and Conclusion
 
-<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the George Town videos collection.!-->
+
+We trying to concluded that the efficacy of the  preventative assistance medication. Since the p-value is less than 0.0000000423, the null hypothesis will be rejected. The preventative new aids medication appears to be beneficial based on the data information.
