@@ -24,6 +24,22 @@ $H_A$: Aids patients appear to respond well to the recently developed prophylact
 
 # Methods
 
+Variable we use are:  
+
+treatment - categorical   
+DrugUser - categorical   
+infected - categorical  
+
+Infected depends on treatment for Drug Users. 
+
+We get just the Drug Users from the population. 
+
+
+```{r}
+drugUsersData= select(triUmp, treatment, DrugUser, infected)
+drugUsersData= filter(drugUsersData,DrugUser=='yes')
+```
+
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
 
 # Results
