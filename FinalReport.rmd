@@ -1,6 +1,6 @@
 ---
 title: "Aides Drug"
-author: "Kelly Acevedo!"
+author: "Kelly Acevedo"
 date: "3/13/24"
 output: html_document
 ---
