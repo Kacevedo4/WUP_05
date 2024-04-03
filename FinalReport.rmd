@@ -19,6 +19,9 @@ A new  preventative aides drug (triUmpsal) is under test in clinical trials. Con
 
 $H_0$: Those who have been diagnosed with aids do not appear to benefit from the new preventative medication.
 
+$H_A$: Aids patients appear to respond well to the recently developed prophylactic medication.
+
+
 # Methods
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
